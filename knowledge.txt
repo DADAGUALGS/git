@@ -4,9 +4,12 @@
 
 git add 将文件从工作区添加到暂存区
 git commit 将文件从暂存区添加到本地仓库
+git status 查看当前状态
+git log 查看提交记录
 
 
+git reset 回退到某一个版本   --soft  --hard  --mixed
+git ls-files  查看暂存区的内容
 
-
-
-
+git diff  1.是比较工作区和暂存区之间的文件，显示修改了哪些内容  2.git diff HEAD 比较工作区和版本库之间的差异 3. git diff --cached 比较暂存区和版本库之间的差异
+git diff HEAD~ HEAD 这里HEAD表示当前的版本 而HEAD~表示上一个版本 HEAD~2 表示上上一个版本  git diff HEAD~3 HEAD file3.txt  查看各个版本之间具体文件的差异内容
