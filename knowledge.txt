@@ -1,0 +1,12 @@
+1. git所在的目录 工作区Working Directory
+2. .git/index 暂存区Staging Area/Index 用于保存即将提交到Git仓库的修改内容
+3. .git/objects本地仓库Local Repository
+
+git add 将文件从工作区添加到暂存区
+git commit 将文件从暂存区添加到本地仓库
+
+
+
+
+
+
