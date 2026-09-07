@@ -4,7 +4,7 @@
 
 git add 将文件从工作区添加到暂存区
 git commit 将文件从暂存区添加到本地仓库
-git status 查看当前状态
+git status 查看当前状态  -s 表示简略显示
 git log 查看提交记录
 
 
