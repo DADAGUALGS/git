@@ -16,4 +16,7 @@ git diff HEAD~ HEAD 这里HEAD表示当前的版本 而HEAD~表示上一个版�
 
 git rm <file> 把文件从工作区和暂存区同时删除 git rm --cached <file> 表示只删除暂存区中的文件
 
-
+git remote add origin git@github.com:DADAGUALGS/git.git  添加远程仓库地址，最后一个参数为远程仓库的ssh地址
+git remote -v 查看当前仓库所对应的远程仓库别名和地址
+git branch -M main 指定当前分支名字为main
+git push -u origin main 把本地仓库的main分支推送给远程仓库的main分支
